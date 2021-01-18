@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Projects
+{% endblock %}
+
+{% block main %}
+    <section class="main">
+        <h1>Side Projects</h1>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <span id="code">$</span>
+                <h5 class="card-title">Stock Trade Web App</h5>
+                <p class="card-text" style="color:black">This web app uses Python, HTML5, CSS3 and Bootstrap 4 in a Flask framework. IEX API was used to get real-time stock values and a SQL database using SQLite was used to store user information such as username, password, what stocks they owned and history.</p>
+                <a href="https://github.com/Emilykissoon/stocks" class="btn btn-light">View on Github</a>
+            </div>
+        </div>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <img src="/static/auction.png" width="100px" style="padding-bottom: 10px">
+                <h5 class="card-title">Auction Web App</h5>
+                <p class="card-text" style="color:black">This web app is an e-commerce auction site that allows users to bid on items as well as create their own listings. Built with Python, Django, HTML5 and Bootstrap 4. A SQLite database was used and integrated using Django models.</p>
+                <a href="https://github.com/Emilykissoon/auctions" class="btn btn-light">View on Github</a>
+            </div>
+        </div>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <img src="/static/website.png" width="100px" style="padding-bottom: 10px">
+                <h5 class="card-title">Personal Website - Web App</h5>
+                <p class="card-text" style="color:black">Simple website built using Python, HTML5, CSS3 and Bootstrap 4 within a Flask framework to display personal projects and skills.</p>
+                <a href="https://github.com/Emilykissoon/website" class="btn btn-light">View on Github</a>
+            </div>
+        </div>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <img src="/static/wiki.png" width="100px" style="padding-bottom: 10px">
+                <h5 class="card-title">Encyclopedia Web App</h5>
+                <p class="card-text" style="color:black">This app mimics wikipedia. It allows persons to view all the existing encyclopedias as well as create their own. Encyclopedias are created by implementing Markdown to HTML Conversion. Built using Python, Django, HTML5, Bootstrap 4</p>
+                <a href="https://github.com/Emilykissoon/wiki" class="btn btn-light">View on Github</a>
+            </div>
+        </div>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <img src="/static/filter.png" width="100px" style="padding-bottom: 10px">
+                <h5 class="card-title">Image Filter Editor - C-Line Program</h5>
+                <p class="card-text" style="color:black">Simple C-command line program that allows person to edit their .bmp photos by implementing the following filters: greyscale, blurry, reflect and edges (highlights every edge in photo).</p>
+                <a href="https://github.com/Emilykissoon/filter" class="btn btn-light">View on Github</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

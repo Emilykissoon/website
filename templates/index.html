@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <section class="main">
+        <h1>Hello, I'm Emily Kissoon</h1>
+        <p>I am an ECE student at the University of Waterloo.</p>
+        <p>I specialize in <span style="font-weight: bolder; font-size: 20px">Full Stack Web Development.</span></p>
+        <h3>Skills:</h3>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <span id="code">&lt;/&gt;</span>
+                <h5 class="card-title">Programming Languages</h5>
+                <p class="card-text" style="color:black">I have experience in Python, C++, C, Javascript, HTML5, CSS3 and SQL. I have used each of these languages in several side projects over the past year.</p>
+            </div>
+        </div>
+        <div id="m" class="card bg-light mb-3" style="max-width: 36rem;">
+            <div class="card-body">
+                <span id="code">&lt;/&gt;</span>
+                <h5 class="card-title">Frameworks/Tools/Other</h5>
+                <p class="card-text" style="color:black">Through designing and executing my side projects, I have become efficient in Flask, Django, SQLite, SASS, Jinja, Bootstrap 4 and Git/Version Control.</p>
+            </div>
+        </div>
+    </section>
+{% endblock %}
